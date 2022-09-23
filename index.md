@@ -8,7 +8,9 @@ layout: home
 ---
 
 
-Real2Sim captures the ability to construct and build high-fidelity simulators directly from real-world data. Such simulation engines can take a variety of forms, ranging from perception simulation, to dynamics and physics, and even to behaviors and interactions. The goal of this workshop is to help define the emerging field of real2sim and bring together the researchers from various parts of robotics who are interested in this problem.
+The goal of this workshop is to help define the emerging field of *real2sim* and bring together the researchers from various parts of robotics who are interested in this problem.
+
+Real2Sim refers to the construction and building high-fidelity simulators directly from real-world data. Such simulation engines can take a variety of forms, ranging from perception simulation, to dynamics and physics, and even to behaviors and interactions.
 
 ![](assets/img/banner.jpg)
 
