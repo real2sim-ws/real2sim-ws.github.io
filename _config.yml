@@ -22,7 +22,7 @@ title: Real2Sim - ICRA23
 email: real2sim@mit.edu
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "real2sim.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://real2sim.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rethinkmlpapers
 github_username:  rethinkmlpapers
 
