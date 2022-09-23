@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -18,13 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sniffle Workshop
-email: your-email@example.com
+title: Real2Sim - ICRA23
+email: real2sim@mit.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for the workshop site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Users/amini/web/real2sim.github.io/_site" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rethinkmlpapers
 github_username:  rethinkmlpapers
@@ -38,12 +35,12 @@ plugins:
 # this and add the path to the pages in order as they should show up
 header_pages:
 - index.md
-- speakers.md
-- organizers.md
-- callforpapers.md
-- schedule.md
-- papers.md
-- contactus.md
+# - speakers.md
+# - organizers.md
+# - callforpapers.md
+# - schedule.md
+# - papers.md
+# - contactus.md
 
 # # Specify the name of a file to show as a masthead graphic at the top of each page, instead of a title, here:
 # masthead: assets/img/banner.jpg
@@ -62,15 +59,15 @@ last_updated: true
 # To turn off any of these collections, just set "output" to "false"
 collections:
   speakers:
-    output: true
+    output: false
   organizers:
-    output: true
+    output: false
   schedule:
     sort_by: sequence_id
-    output: true
+    output: false
   papers:
     sort_by: sequence_id
-    output: true
+    output: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.

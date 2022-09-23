@@ -1,18 +1,14 @@
----
-layout: default
----
-
-<article class="post">
+<!-- <article class="post"> -->
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <h1 class="post-title">Speakers</h1>
   </header>
 
   <div class = "post-content">
 	  <table style="border-collapse: collapse; border: none;">
 	  	{% for speaker in site.speakers %}
 		    <tr style="border: none;">
-		        <td style="border: none;">
+		        <td style="border: none; padding-left: 6em;">
 		            <div class="col-xs-6">
 		                <p align="center">
 		                	{% if speaker.img %}
@@ -23,7 +19,7 @@ layout: default
 		                </p>
 		            </div>
 		        </td>
-		        <td style="border: none;">
+		        <td style="border: none; padding-left: 1em; ">
 		            <div class="people-name text-center">
 		            	<!-- Speaker name (link to webpage if provided) -->
 		            	{% if speaker.webpage %}
@@ -48,7 +44,7 @@ layout: default
 		                {% endif %}
 		            </div>
 		        </td>
-		        <td style="border: none;">
+		        <td style="border: none; padding-right: 6em;">
 		        	<div class="people-name text-center">
 		        		{{ speaker.content }}
 		        	</div>
@@ -58,4 +54,4 @@ layout: default
 	  </table>
   </div>
 
-</article>
+<!-- </article> -->
