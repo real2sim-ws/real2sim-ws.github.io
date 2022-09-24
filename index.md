@@ -28,6 +28,7 @@ If you experience issues or have cool features to add, feel free to [fork this t
 
 
 {%- include speakers.html -%}
+{%- include organizers.html -%}
 
 ## Submission Instructions
 TBD
