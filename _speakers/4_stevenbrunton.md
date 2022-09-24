@@ -21,4 +21,4 @@ affil2_link:
 
 <!-- Whatever you write below will show up as the speaker's bio -->
 
-Talk title TBD
+Interpretable and Generalizable Machine Learning Models for Advanced Control
