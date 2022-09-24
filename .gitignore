@@ -1,6 +1,8 @@
 .DS_Store
 ._DS_Store
 
+CNAME 
+
 _site
 .sass-cache
 .jekyll-cache
